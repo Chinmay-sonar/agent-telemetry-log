@@ -1,0 +1,20 @@
+{
+  "name": "agent-telemetry-log",
+  "version": "2.0.0",
+  "description": "Autonomous scheduled telemetry engine, daily open-source issue intelligence scout, and multi-vector GitHub contribution pipeline.",
+  "type": "module",
+  "scripts": {
+    "scout": "node scripts/oss-scout.js",
+    "pulse": "node scripts/generate-pulse.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "telemetry",
+    "agent-systems",
+    "autonomous-sentinel",
+    "github-actions",
+    "open-source-scout"
+  ],
+  "author": "Chinmay Sonar <chinmaysonarofficial@gmail.com>",
+  "license": "MIT"
+}
