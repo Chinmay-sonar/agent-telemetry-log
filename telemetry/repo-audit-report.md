@@ -10,19 +10,14 @@
 
 ---
 
-## ⚠️ Tracking Warnings (.env / Sensitive Files in Git)
-
-- **HostelA1** (private): Tracked files -> `.env.local`
-
----
-
 ## 📊 Repository Health & Hygiene Matrix
 
 | Repository | Visibility | README | LICENSE | .gitignore | CI/CD | Hygiene Score | Grade |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [**Chinmay-sonar**](https://github.com/Chinmay-sonar/Chinmay-sonar) | 🌐 Public | ✅ | ❌ | ❌ | ✅ | `70/100` | **B** |
-| [**clps-lunar-browser**](https://github.com/Chinmay-sonar/clps-lunar-browser) | 🌐 Public | ✅ | ❌ | ✅ | ❌ | `85/100` | **A** |
+| [**HostelA1**](https://github.com/Chinmay-sonar/HostelA1) | 🔒 Private | ✅ | ❌ | ✅ | ❌ | `95/100` | **A+** |
+| [**clps-lunar-browser**](https://github.com/Chinmay-sonar/clps-lunar-browser) | 🌐 Public | ✅ | ✅ | ✅ | ✅ | `100/100` | **A+** |
 | [**agent-telemetry-log**](https://github.com/Chinmay-sonar/agent-telemetry-log) | 🌐 Public | ✅ | ❌ | ✅ | ✅ | `90/100` | **A+** |
+| [**Chinmay-sonar**](https://github.com/Chinmay-sonar/Chinmay-sonar) | 🌐 Public | ✅ | ❌ | ❌ | ✅ | `70/100` | **B** |
 | [**agent-skills**](https://github.com/Chinmay-sonar/agent-skills) | 🌐 Public | ✅ | ✅ | ✅ | ✅ | `95/100` | **A+** |
 | [**hackforge-command-system**](https://github.com/Chinmay-sonar/hackforge-command-system) | 🌐 Public | ✅ | ✅ | ✅ | ✅ | `100/100` | **A+** |
 | [**instagram-second-brain-agent**](https://github.com/Chinmay-sonar/instagram-second-brain-agent) | 🌐 Public | ✅ | ✅ | ✅ | ❌ | `95/100` | **A+** |
@@ -41,7 +36,6 @@
 | [**Hail-Mary**](https://github.com/Chinmay-sonar/Hail-Mary) | 🔒 Private | ✅ | ❌ | ✅ | ❌ | `95/100` | **A+** |
 | [**The-AMD-Developer-Hackathon-ACT-II**](https://github.com/Chinmay-sonar/The-AMD-Developer-Hackathon-ACT-II) | 🌐 Public | ✅ | ❌ | ✅ | ❌ | `85/100` | **A** |
 | [**hostel-a1-website**](https://github.com/Chinmay-sonar/hostel-a1-website) | 🌐 Public | ✅ | ❌ | ❌ | ❌ | `65/100` | **C** |
-| [**HostelA1**](https://github.com/Chinmay-sonar/HostelA1) | 🔒 Private | ✅ | ❌ | ✅ | ❌ | `65/100` | **WARNING (D)** |
 
 ---
 
