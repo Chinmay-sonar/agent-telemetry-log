@@ -1,7 +1,7 @@
 # 🛡️ GitHub Portfolio Security & Structural Audit Report
 
 **Date:** `2026-11-17`  
-**Audited Repositories:** `20`  
+**Audited Repositories:** `22`  
 **Sentinel Engine:** v2.0 (Deep Tree Inspection & Secret Detection)
 
 ---
@@ -20,10 +20,12 @@
 
 | Repository | Visibility | README | LICENSE | .gitignore | CI/CD | Hygiene Score | Grade |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| [**Chinmay-sonar**](https://github.com/Chinmay-sonar/Chinmay-sonar) | 🌐 Public | ✅ | ❌ | ❌ | ✅ | `70/100` | **B** |
+| [**clps-lunar-browser**](https://github.com/Chinmay-sonar/clps-lunar-browser) | 🌐 Public | ✅ | ❌ | ✅ | ❌ | `85/100` | **A** |
 | [**agent-telemetry-log**](https://github.com/Chinmay-sonar/agent-telemetry-log) | 🌐 Public | ✅ | ❌ | ✅ | ✅ | `90/100` | **A+** |
+| [**agent-skills**](https://github.com/Chinmay-sonar/agent-skills) | 🌐 Public | ✅ | ✅ | ✅ | ✅ | `95/100` | **A+** |
 | [**hackforge-command-system**](https://github.com/Chinmay-sonar/hackforge-command-system) | 🌐 Public | ✅ | ✅ | ✅ | ✅ | `100/100` | **A+** |
 | [**instagram-second-brain-agent**](https://github.com/Chinmay-sonar/instagram-second-brain-agent) | 🌐 Public | ✅ | ✅ | ✅ | ❌ | `95/100` | **A+** |
-| [**Chinmay-sonar**](https://github.com/Chinmay-sonar/Chinmay-sonar) | 🌐 Public | ✅ | ❌ | ❌ | ✅ | `70/100` | **B** |
 | [**codyseey-media-bot**](https://github.com/Chinmay-sonar/codyseey-media-bot) | 🌐 Public | ✅ | ❌ | ✅ | ❌ | `85/100` | **A** |
 | [**DevFest-Sponsorship-Deck**](https://github.com/Chinmay-sonar/DevFest-Sponsorship-Deck) | 🌐 Public | ✅ | ❌ | ✅ | ❌ | `80/100` | **A** |
 | [**the-dlexx-gym**](https://github.com/Chinmay-sonar/the-dlexx-gym) | 🔒 Private | ✅ | ❌ | ✅ | ❌ | `95/100` | **A+** |
