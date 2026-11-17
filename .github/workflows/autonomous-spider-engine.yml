@@ -54,9 +54,18 @@ jobs:
           git push origin "$BRANCH_NAME" --force
 
           # Open formal Pull Request
+          PR_BODY=$(cat <<EOF
+### Telemetry & OSS Discovery Pulse - ${DATE}
+
+- **Engine**: Autonomous Spider-Web Sentinel v2.0
+- **Subsystems Active**: OSS Scout, Cluster Telemetry, Digest Generator
+- **Target**: Continuous verified contribution pipeline across multi-vector graph.
+EOF
+)
+
           PR_URL=$(gh pr create \
             --title "chore(telemetry): autonomous daily heartbeat & oss intel (${DATE})" \
-            --body "### Telemetry & OSS Discovery Pulse - ${DATE}`n`n- **Engine**: Autonomous Spider-Web Sentinel v2.0`n- **Subsystems Active**: OSS Scout, Cluster Telemetry, Digest Generator`n- **Target**: Continuous verified contribution pipeline across multi-vector graph." \
+            --body "$PR_BODY" \
             --base main \
             --head "$BRANCH_NAME")
           
