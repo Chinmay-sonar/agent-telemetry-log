@@ -1,4 +1,4 @@
-﻿# 🛰️ Agent Telemetry & Autonomous OSS Intelligence Sentinel
+# 🛰️ Agent Telemetry & Autonomous OSS Intelligence Sentinel
 
 <div align="center">
 

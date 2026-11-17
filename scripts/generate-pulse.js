@@ -9,6 +9,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { scoutAllCategories, formatIntelMarkdown } from './oss-scout.js';
+import { runFullAudit } from './repo-orchestrator.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -44,6 +45,18 @@ async function runDailyPulse() {
   fs.writeFileSync(intelFile, intelContent, 'utf-8');
   console.log(`[+] Wrote OSS intelligence report to: ${intelFile}`);
 
+  // 2.5 Continuous Repository Security & Secret Leak Audit
+  const auditReportPath = path.join(REPO_ROOT, 'telemetry', 'repo-audit-report.md');
+  const dayOfWeek = now.getUTCDay(); // 0 is Sunday
+  if (dayOfWeek === 0 || !fs.existsSync(auditReportPath)) {
+    console.log('[+] Executing scheduled repository security and architecture audit...');
+    try {
+      await runFullAudit();
+    } catch (err) {
+      console.warn(`[WARN] Security audit encountered partial failure: ${err.message}`);
+    }
+  }
+
   // 3. Generate SHA-256 Telemetry State Digest
   const statePayload = `${dateStr}-${utcStr}-${JSON.stringify(scoutData).slice(0, 500)}`;
   const pulseHash = crypto.createHash('sha256').update(statePayload).digest('hex').slice(0, 16);
@@ -65,6 +78,7 @@ Records daily system health, cluster status, and AI model verification pulses.
 * **Telemetry Digest Hash:** \`${pulseHash}\`
 * **Target Node:** \`agent-telemetry-log:main\`
 * **Latest OSS Intel:** [${dateStr} Open Source Intelligence Report](telemetry/oss-intel/${dateStr}.md)
+* **Security & Secret Audit:** [Portfolio Hygiene & Secret Scan Report](telemetry/repo-audit-report.md)
 
 ---
 

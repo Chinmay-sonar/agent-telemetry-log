@@ -4,6 +4,7 @@
   "description": "Autonomous scheduled telemetry engine, daily open-source issue intelligence scout, and multi-vector GitHub contribution pipeline.",
   "type": "module",
   "scripts": {
+    "audit": "node scripts/repo-orchestrator.js",
     "scout": "node scripts/oss-scout.js",
     "pulse": "node scripts/generate-pulse.js",
     "test": "node --test tests/**/*.test.js"
