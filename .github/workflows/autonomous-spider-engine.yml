@@ -3,7 +3,7 @@ name: Autonomous Spider-Web Telemetry & OSS Scout
 on:
   schedule:
     - cron: "15 3 * * *" # Daily at 08:45 AM IST (03:15 UTC)
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 permissions:
   contents: write
