@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "15 3 * * *" # Daily at 08:45 AM IST (03:15 UTC)
   workflow_dispatch:
-    inputs:
-      manual_trigger:
-        description: "Trigger reason or manual note"
-        required: false
-        default: "Manual telemetry trigger"
 
 permissions:
   contents: write
