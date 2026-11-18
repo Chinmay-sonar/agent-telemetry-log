@@ -1,6 +1,6 @@
 # 🌐 Weekly Open-Source Upstream Contribution Brief
 
-**Cycle Date:** `2026-11-17`  
+**Cycle Date:** `2026-11-18`  
 **Engineer / Contributor:** Chinmay Sonar (@Chinmay-sonar)  
 **Engine:** Autonomous Upstream Contributor v2.0
 
@@ -20,21 +20,21 @@
 
 ### 🧠 Multi-Agent & AI Systems
 
-- [**fengchuimailang/awesome-chip-agents**](https://github.com/fengchuimailang/awesome-chip-agents) -> [#1: docs: add the original paper citation for CircuitNet](https://github.com/fengchuimailang/awesome-chip-agents/issues/1)
-- [**goul4rt/lgpd-skills**](https://github.com/goul4rt/lgpd-skills) -> [#8: README em inglês (README.en.md)](https://github.com/goul4rt/lgpd-skills/issues/8)
-- [**Cygnux-Labs/Tracekit**](https://github.com/Cygnux-Labs/Tracekit) -> [#929: Audit reads OpenCode's and Kilo's batch tool as held, though the plugin blocks it](https://github.com/Cygnux-Labs/Tracekit/issues/929)
+- [**prapaa-ai/agav**](https://github.com/prapaa-ai/agav) -> [#799: feat(lsp_query): add document-symbol lookup](https://github.com/prapaa-ai/agav/issues/799)
+- [**richshaw/OpenSignup**](https://github.com/richshaw/OpenSignup) -> [#1054: The Build tab's save errors still carry field and received, which nothing reads](https://github.com/richshaw/OpenSignup/issues/1054)
+- [**richshaw/OpenSignup**](https://github.com/richshaw/OpenSignup) -> [#1053: A signup's organizer tab paths are typed out by hand in 12 places, and links.ts builds two more copies](https://github.com/richshaw/OpenSignup/issues/1053)
 
 ### ⚡ TypeScript & Web Ecosystem
 
-- [**mergepay/mergepay-web**](https://github.com/mergepay/mergepay-web) -> [#773: Add Empty-State Components for Groups and Expenses](https://github.com/mergepay/mergepay-web/issues/773)
-- [**mergepay/mergepay-web**](https://github.com/mergepay/mergepay-web) -> [#768: Add unit tests for balance calculation logic in src/lib](https://github.com/mergepay/mergepay-web/issues/768)
-- [**aryan-tah/proxshield**](https://github.com/aryan-tah/proxshield) -> [#25: Allowlist values that should never be redacted](https://github.com/aryan-tah/proxshield/issues/25)
+- [**girishlade111/ladestack-site**](https://github.com/girishlade111/ladestack-site) -> [#32: [Algorithm] getRelatedArticles() ignores article categories when suggesting related reads](https://github.com/girishlade111/ladestack-site/issues/32)
+- [**girishlade111/ladestack-site**](https://github.com/girishlade111/ladestack-site) -> [#31: [Mobile UX] Missing meta name='theme-color' tag in index.html](https://github.com/girishlade111/ladestack-site/issues/31)
+- [**girishlade111/ladestack-site**](https://github.com/girishlade111/ladestack-site) -> [#30: [SEO] Missing robots.txt, sitemap.xml, and Schema.org JSON-LD structured data](https://github.com/girishlade111/ladestack-site/issues/30)
 
 ### 🐍 Python & Data Tooling
 
-- [**lakshaychhaba0001-sys/openbench-ai**](https://github.com/lakshaychhaba0001-sys/openbench-ai) -> [#149: Filter runs by model name: runs list --model and dashboard ?model=](https://github.com/lakshaychhaba0001-sys/openbench-ai/issues/149)
-- [**fengchuimailang/awesome-chip-agents**](https://github.com/fengchuimailang/awesome-chip-agents) -> [#1: docs: add the original paper citation for CircuitNet](https://github.com/fengchuimailang/awesome-chip-agents/issues/1)
-- [**lakshaychhaba0001-sys/openbench-ai**](https://github.com/lakshaychhaba0001-sys/openbench-ai) -> [#147: dataset-stats: add a Markdown format](https://github.com/lakshaychhaba0001-sys/openbench-ai/issues/147)
+- [**DavidGodefroid/lockfamily**](https://github.com/DavidGodefroid/lockfamily) -> [#82: README: the documentation table omits the pages written in docs-site/pages/](https://github.com/DavidGodefroid/lockfamily/issues/82)
+- [**DavidGodefroid/lockfamily**](https://github.com/DavidGodefroid/lockfamily) -> [#81: site e2e: test the home page at 390 px too, and keep the GitHub link visible there](https://github.com/DavidGodefroid/lockfamily/issues/81)
+- [**DavidGodefroid/lockfamily**](https://github.com/DavidGodefroid/lockfamily) -> [#80: install.sh: --help should exit 0, not 2](https://github.com/DavidGodefroid/lockfamily/issues/80)
 
 ---
 
