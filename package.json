@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "audit": "node scripts/repo-orchestrator.js",
+    "weekly-oss": "node scripts/weekly-oss-contributor.js",
     "scout": "node scripts/oss-scout.js",
     "pulse": "node scripts/generate-pulse.js",
     "test": "node --test tests/**/*.test.js"

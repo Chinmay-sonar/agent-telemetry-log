@@ -10,6 +10,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { scoutAllCategories, formatIntelMarkdown } from './oss-scout.js';
 import { runFullAudit } from './repo-orchestrator.js';
+import { runWeeklyOSSContributor } from './weekly-oss-contributor.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -47,13 +48,24 @@ async function runDailyPulse() {
 
   // 2.5 Continuous Repository Security & Secret Leak Audit
   const auditReportPath = path.join(REPO_ROOT, 'telemetry', 'repo-audit-report.md');
-  const dayOfWeek = now.getUTCDay(); // 0 is Sunday
+  const dayOfWeek = now.getUTCDay(); // 0 is Sunday, 3 is Wednesday
   if (dayOfWeek === 0 || !fs.existsSync(auditReportPath)) {
     console.log('[+] Executing scheduled repository security and architecture audit...');
     try {
       await runFullAudit();
     } catch (err) {
       console.warn(`[WARN] Security audit encountered partial failure: ${err.message}`);
+    }
+  }
+
+  // 2.6 Weekly Open-Source Upstream Contribution Pipeline
+  const weeklyBriefPath = path.join(REPO_ROOT, 'telemetry', 'weekly-oss-brief.md');
+  if (dayOfWeek === 3 || !fs.existsSync(weeklyBriefPath)) {
+    console.log('[+] Executing weekly open-source contributor pipeline...');
+    try {
+      await runWeeklyOSSContributor();
+    } catch (err) {
+      console.warn(`[WARN] Weekly OSS contributor encountered partial failure: ${err.message}`);
     }
   }
 
@@ -78,6 +90,7 @@ Records daily system health, cluster status, and AI model verification pulses.
 * **Telemetry Digest Hash:** \`${pulseHash}\`
 * **Target Node:** \`agent-telemetry-log:main\`
 * **Latest OSS Intel:** [${dateStr} Open Source Intelligence Report](telemetry/oss-intel/${dateStr}.md)
+* **Weekly Upstream Contributions:** [Weekly Open-Source Brief](telemetry/weekly-oss-brief.md)
 * **Security & Secret Audit:** [Portfolio Hygiene & Secret Scan Report](telemetry/repo-audit-report.md)
 
 ---
