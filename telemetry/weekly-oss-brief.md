@@ -1,6 +1,6 @@
 # 🌐 Weekly Open-Source Upstream Contribution Brief
 
-**Cycle Date:** `2026-11-18`  
+**Cycle Date:** `2026-11-25`  
 **Engineer / Contributor:** Chinmay Sonar (@Chinmay-sonar)  
 **Engine:** Autonomous Upstream Contributor v2.0
 
@@ -20,21 +20,21 @@
 
 ### 🧠 Multi-Agent & AI Systems
 
-- [**prapaa-ai/agav**](https://github.com/prapaa-ai/agav) -> [#799: feat(lsp_query): add document-symbol lookup](https://github.com/prapaa-ai/agav/issues/799)
-- [**richshaw/OpenSignup**](https://github.com/richshaw/OpenSignup) -> [#1054: The Build tab's save errors still carry field and received, which nothing reads](https://github.com/richshaw/OpenSignup/issues/1054)
-- [**richshaw/OpenSignup**](https://github.com/richshaw/OpenSignup) -> [#1053: A signup's organizer tab paths are typed out by hand in 12 places, and links.ts builds two more copies](https://github.com/richshaw/OpenSignup/issues/1053)
+- [**nikhilb2/simple-invoicing-free-gst-billing-software**](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software) -> [#1082: fix(frontend): the Credit / Debit Notes browser tab says "Credit Notes"](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software/issues/1082)
+- [**nikhilb2/simple-invoicing-free-gst-billing-software**](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software) -> [#1077: fix(backend): the SMTP mock/test helper in smtp.py formats amounts differently from the real emails](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software/issues/1077)
+- [**nikhilb2/simple-invoicing-free-gst-billing-software**](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software) -> [#1075: feat(frontend): sign-up form should suggest "Did you mean gmail.com?" for mistyped email domains](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software/issues/1075)
 
 ### ⚡ TypeScript & Web Ecosystem
 
-- [**girishlade111/ladestack-site**](https://github.com/girishlade111/ladestack-site) -> [#32: [Algorithm] getRelatedArticles() ignores article categories when suggesting related reads](https://github.com/girishlade111/ladestack-site/issues/32)
-- [**girishlade111/ladestack-site**](https://github.com/girishlade111/ladestack-site) -> [#31: [Mobile UX] Missing meta name='theme-color' tag in index.html](https://github.com/girishlade111/ladestack-site/issues/31)
-- [**girishlade111/ladestack-site**](https://github.com/girishlade111/ladestack-site) -> [#30: [SEO] Missing robots.txt, sitemap.xml, and Schema.org JSON-LD structured data](https://github.com/girishlade111/ladestack-site/issues/30)
+- [**My-first-free-organization/whiskerworks-shop**](https://github.com/My-first-free-organization/whiskerworks-shop) -> [#1520: Typo and broken image on the cat harness product page](https://github.com/My-first-free-organization/whiskerworks-shop/issues/1520)
+- [**lingdojo/kana-dojo**](https://github.com/lingdojo/kana-dojo) -> [#34630: [good first issue, hacktoberfest] 🎎 Add new Video Game Quote 364 (good-first-issue)](https://github.com/lingdojo/kana-dojo/issues/34630)
+- [**tranquilo-art/tranquilo-app**](https://github.com/tranquilo-art/tranquilo-app) -> [#242: Make the scripts' opt() flag helper fall back to its default when a flag has no value](https://github.com/tranquilo-art/tranquilo-app/issues/242)
 
 ### 🐍 Python & Data Tooling
 
-- [**DavidGodefroid/lockfamily**](https://github.com/DavidGodefroid/lockfamily) -> [#82: README: the documentation table omits the pages written in docs-site/pages/](https://github.com/DavidGodefroid/lockfamily/issues/82)
-- [**DavidGodefroid/lockfamily**](https://github.com/DavidGodefroid/lockfamily) -> [#81: site e2e: test the home page at 390 px too, and keep the GitHub link visible there](https://github.com/DavidGodefroid/lockfamily/issues/81)
-- [**DavidGodefroid/lockfamily**](https://github.com/DavidGodefroid/lockfamily) -> [#80: install.sh: --help should exit 0, not 2](https://github.com/DavidGodefroid/lockfamily/issues/80)
+- [**nikhilb2/simple-invoicing-free-gst-billing-software**](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software) -> [#1082: fix(frontend): the Credit / Debit Notes browser tab says "Credit Notes"](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software/issues/1082)
+- [**nikhilb2/simple-invoicing-free-gst-billing-software**](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software) -> [#1077: fix(backend): the SMTP mock/test helper in smtp.py formats amounts differently from the real emails](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software/issues/1077)
+- [**nikhilb2/simple-invoicing-free-gst-billing-software**](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software) -> [#1075: feat(frontend): sign-up form should suggest "Did you mean gmail.com?" for mistyped email domains](https://github.com/nikhilb2/simple-invoicing-free-gst-billing-software/issues/1075)
 
 ---
 
